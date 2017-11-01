@@ -23,7 +23,7 @@ class GeoCalcTextField: DecimalMinusTextField {
             return
         }
         self.attributedPlaceholder =
-            NSAttributedString(string: ph, attributes: [NSAttributedStringKey.foregroundColor :
+            NSAttributedString(string: ph, attributes: [NSForegroundColorAttributeName :
                 FOREGROUND_COLOR])
     }
     
